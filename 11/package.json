@@ -1,0 +1,15 @@
+{
+  "name": "11",
+  "version": "1.0.0",
+  "description": "The following application demonstrates how to use an EJS template with NodeJS. The parameters are passed through a JSON text, if the parameters are true (ex. user is an admin), text will be displayed.",
+  "main": "11-session.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-session": "^1.17.2"
+  }
+}
