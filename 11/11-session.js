@@ -45,17 +45,10 @@ app.get('/content', auth, function (req, res) {
     res.send("You can only see this if you've logged in.");
 });
  
-//localhost:3000/content, get the protected contents. The auth function above is passed in the second parameters as a middleware before it proceed to serve the content to the user. If the auth function determined the user is not valid, it will not proceed to the thrid function to serve the content.
+//localhost:3000/content, get the protected contents. The authenticating function above is passed in the second parameters as a middleware before it proceed to serve the content to the user. If the auth function determined the user is not valid, it will not proceed to the third function to serve the content.
 
-// Visit these urls in a browser
-// localhost:3000/content
-// localhost:3000/login?username=amy&password=amyspassword
-// localhost:3000/content
-// localhost:3000/logout
-// localhost:3000/content
 
 
 app.listen(port);
 console.log('Server started at http://localhost:' + port);
 
-//https://www.codexpedia.com/node-js/a-very-basic-session-auth-in-node-js-with-express-js/

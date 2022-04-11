@@ -32,4 +32,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
     console.log(`listening on port ${port}`)
 })
-//https://medium.com/swlh/how-to-specify-statuscode-in-node-js-696b0d4aff7e
